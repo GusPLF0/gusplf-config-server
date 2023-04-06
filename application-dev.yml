@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: gretting-service
+
+greeting-service:
+  greeting: "Hello"
+  default-value: "World"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
